@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #774ad8;
+    --primary-text: #f8f5f9;
+    --Mau-tim-nhat: #f3e9ff;
+    --mau-vang-nhat: #feefb2;
+    --mau-vang-dam: #f8c929;
+    --mau-vang-nau: #66490a;
+}
+
+body {
+    background-color: var(--Mau-tim-nhat);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 44px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 150px;
+    width: 273px;
+    margin-bottom: 36px;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.content {
+    background-color: var(--primary-color);
+    width: 748px;
+    height: 724px;
+    border-radius: 8px;
+    padding-top: 53px;
+    padding-left: 24px;
+    color: var(--primary-text);
+}
+
+h2 {
+    color: var(--primary-text);
+    margin: 0;
+}
+
+.footer {
+    margin-top: 52px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    line-height: 2;
+    color: var(--primary-text);
+    padding: 0 16px;
+}
+
+.chu-vang {
+    color: var(--mau-vang-dam);
+    border-left: 4px solid var(--mau-vang-dam);
+    padding: 0 10px;
+}
+
+span>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--mau-vang-nhat);
+    border-radius: 4px;
+    margin: 0 2px;
+    padding: 2px 2px;
+}
+
+.Dowload-PDF {
+    text-decoration: none;
+    color: var(--mau-vang-nau);
+    background-color: var(--mau-vang-dam);
+    border-radius: 6px;
+    padding: 12px 28px;
+    font-weight: bold;
+}
+
+.KMin {
+    text-align: center;
+    padding-top: 24px;
+}
